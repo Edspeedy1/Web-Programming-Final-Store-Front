@@ -1,0 +1,78 @@
+@import url("styleBasic.css");
+.headerVideo {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    animation: VideoExpand 1s;
+    
+}
+@keyframes VideoExpand {
+    0% {height: 1px;}
+    100% {height: 350px;}
+}
+.headerText {
+    margin-bottom: -110px;
+    top: 50%;
+    left: 50%;
+    transform: translate(40%, -200px);
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #000;
+    font-size: 60px;
+    z-index: 10;
+}
+#storeHeader {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    padding-left: 15px;
+    margin-top: -10px;
+}
+#storeHeaderUnderline {
+    border-bottom: 7px solid #000000;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: -40px;
+    margin-left: 10px;
+}
+#missionText{
+    margin-left: 25vi;
+    margin-right: 25vi;
+    text-align: center;
+}
+h1.mission{
+    margin-left: 30px;
+    font-size: 40px;
+}
+h2.mission{
+    margin-left: 15px;
+    font-size: 33px;
+}
+p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+img.i1{
+    position: absolute;
+    width: 23vi;
+    transform: translate(76vi, 400px);
+}
+img.i2{
+    position: absolute;
+    width: 23vi;
+    transform: translate(0, -150px);
+    z-index: 10;
+}
+#missionImages {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+#footer {
+    position: relative;
+    z-index: 999;
+}

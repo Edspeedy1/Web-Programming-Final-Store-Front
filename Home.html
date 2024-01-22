@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleHome.css">
+    <script src="script.js"></script>
+    <script src="annoying.js"></script>
+    <script src="ItemData.js"></script>
+    <link rel="icon" href="visuals/MainIcon.png">
+    <title>The Best Store</title>
+</head>
+
+<body>
+    <div id="topNavBar">
+        <h1 id="topWebName">The Best Store</h1>
+        <div id="searchBarBox">
+            <button id="topSearchButton" onclick="Search()"></button>
+        </div>
+    </div>
+
+    <div id="spaceFiller"></div>
+    <div class="content">
+        <div>
+            <video src="visuals/TopVideo1.mp4" autoplay loop muted class="headerVideo" width=""></video>
+            <h1 class="headerText">The Best Store</h1>
+        </div>
+        <div id="spaceFiller2"></div>
+        <div id="CardHolder"></div>
+        <div id="spaceFiller2" style="margin-top: 25px;"></div>
+        <div id="spaceFiller2" style="margin-top: -50px;"></div>
+        <div id="storeBox">
+            <h1 id="storeHeader">Featured Items</h1>
+            <p id="storeHeaderUnderline"><nbsp></nbsp></p>
+            <div id="storeBoxContent">
+            </div>
+        </div>
+    </div>
+    <div id="spaceFiller2" style="margin-top: 10px; margin-bottom: -30px; height: 70px"></div>
+
+    <div id="footer">
+        <div style="margin: 15px;padding-left: 50px;">
+            <h1>About Us</h1>
+            <a href="aboutUs.html">Our mission</a>
+            <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+            <p>Email: <a href="mailto:3Jw5M@example.com">3Jw5M@example.com</a></p>
+            <p>Address: 123 Main St, Anytown, USA</p>
+        </div>
+        <div style="margin: 15px;">
+            <div>
+                <h2 id="newsletterHeader">Newsletter sign up</h2>
+                <input type="text" id="email">
+                <p style="margin-top: 10px; display: inline;"><br>Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                <button style="color: wheat; background-color: black; border-radius: 10px;" onclick="let h = document.getElementById('newsletterHeader');if (h.innerHTML[19] != '✓'){h.innerHTML += ' ✓';}">Submit</button>
+            </div>
+        </div>
+        <div style="margin: 15px;padding-right: 150px;">
+            <h1>Other Links</h1>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Professional Link</a>
+            <br><br>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact Us</a>
+        </div>
+    </div>
+</body>
+
+</html>
